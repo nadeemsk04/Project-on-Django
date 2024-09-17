@@ -64,3 +64,15 @@ class ChaiVariety(models.Model):
     return self.name
 ```
 
+Since we are using image field, we need to install Pillow library to use it.
+```
+python -m pip install Pillow
+```
+
+
+###Adding data to the database
+Now that we have defined our model, we can add some data to the database. Lets migrate the database and add some data to the ChaiVariety model.
+```
+python manage.py makemigrations chai
+python manage.py migrate
+```
