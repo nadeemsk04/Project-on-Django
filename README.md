@@ -7,12 +7,12 @@ Django is a high-level Python Web framework that encourages rapid development an
 Django is a full-featured web framework that follows the Model-View-Controller (MVC) architectural pattern. It provides a set of tools and libraries for building web applicationss, including an ORM, a templating engine, and a built-in admin interface.
 
 
-```Envirement Setup : 
+## Envirement Setup :
+``` 
 python3 -m venv .venv
 source .venv/bin/activate
 # for windows
 # .venv\Scripts\activate
-
 ```
 
 
@@ -21,7 +21,8 @@ uv pip install django
 uv pip install -r requirements.txt
 ```
 
-```Creating a Django Project :
+## Creating a Django Project :
+```
 django-admin startproject DjangoBeginners
 cd DjangoBeginners
 ```
